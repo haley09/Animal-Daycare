@@ -1,4 +1,4 @@
-# Pawsitive Playhouse – Animal Daycare & Boarding Website
+# Pawsitive Playhouse - Animal Daycare & Boarding Website
 
 Pawsitive Playhouse is a modern, responsive business website designed for an animal daycare and boarding service. The site provides information about services, pricing, daily activities, scheduling, and staff, while offering a clean and user-friendly experience for potential customers.
 
@@ -14,7 +14,7 @@ The website is built as a single-page layout with smooth scrolling navigation. I
 
 ## Features
 
-### 🏠 Home / Hero Section
+### Home / Hero Section
 - Clear value proposition
 - Call-to-action buttons for navigation and booking
 
@@ -65,9 +65,9 @@ The website is built as a single-page layout with smooth scrolling navigation. I
 
 ## Project Structure
 animal-daycare-website/
-    │─ index.html
-    │─ styles.css
-    │─ script.js
+    |- index.html
+    |- styles.css
+    |- script.js
 
 ---
 
@@ -99,4 +99,4 @@ This project was originally conceptualized as a course assignment and later rede
 ## Author
 
 Haley Abel  
-Informatics Student – Indiana University Indianapolis
+Informatics Student - Indiana University Indianapolis
