@@ -1,0 +1,17 @@
+{
+  "name": "pawsitive-playhouse",
+  "version": "1.0.0",
+  "description": "Animal daycare and boarding website with an Express contact inquiry backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}

@@ -2,7 +2,7 @@
 
 Pawsitive Playhouse is a modern, responsive business website designed for an animal daycare and boarding service. The site provides information about services, pricing, daily activities, scheduling, and staff, while offering a clean and user-friendly experience for potential customers.
 
-This project demonstrates front-end development skills, UI/UX design, and structured content organization for a real-world business scenario.
+This project demonstrates full-stack web development, UI/UX design, and structured content organization for a real-world business scenario.
 
 ---
 
@@ -39,7 +39,7 @@ The website is built as a single-page layout with smooth scrolling navigation. I
 - Information about the facility and mission
 
 ### Contact
-- Contact details and simple form interaction
+- Contact details and an inquiry form backed by PostgreSQL
 
 ---
 
@@ -47,7 +47,10 @@ The website is built as a single-page layout with smooth scrolling navigation. I
 
 - HTML5
 - CSS3 (Flexbox & Grid)
-- JavaScript (basic form interaction)
+- JavaScript
+- Node.js
+- Express
+- PostgreSQL
 - Google Fonts
 
 ---
@@ -68,15 +71,50 @@ animal-daycare-website/
     |- index.html
     |- styles.css
     |- script.js
+    |- server.js
+    |- package.json
 
 ---
 
 ## How to Run
 
-1. Download or clone the project
-2. Open `index.html` in your browser
+1. Install dependencies:
 
-No installation or dependencies required.
+   ```bash
+   npm install
+   ```
+
+2. Create `.env` from `.env.example` and add your PostgreSQL connection string:
+
+   ```text
+   DATABASE_URL=your-postgres-connection-string
+   ```
+
+3. Start the app:
+
+   ```bash
+   npm start
+   ```
+
+4. Open `http://localhost:3000`.
+
+## Deployment
+
+Deploy as a Node web service. On Render, use:
+
+```text
+Build Command: npm install
+Start Command: npm start
+```
+
+Add these environment variables in the Render dashboard:
+
+```text
+DATABASE_URL
+NODE_ENV=production
+```
+
+Do not commit `.env`.
 
 ---
 
@@ -89,8 +127,8 @@ This project was originally conceptualized as a course assignment and later rede
 ## Future Improvements
 
 - Add real image assets and media
-- Connect contact form to a backend/email service
-- Add booking/reservation functionality
+- Add email notifications for new inquiries
+- Add booking/reservation date and service fields
 - Improve accessibility features
 - Deploy as a live hosted website
 
