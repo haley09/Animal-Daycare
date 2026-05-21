@@ -137,4 +137,4 @@ This project was originally conceptualized as a course assignment and later rede
 ## Author
 
 Haley Abel  
-Informatics Student - Indiana University Indianapolis
+Software Development - Ivy Tech Community College
